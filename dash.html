@@ -34,7 +34,7 @@
     redled : TD.toggle({x:210,y:200,width:200,height:90,label:"Red LED",value:0,onchange:function(el,v) {
       Puck.write("LED1.write("+v+");\n");
     }}),
-       grnled : TD.toggle({x:210,y:300,width:200,height:90,label:"Grn LED",value:0,onchange:function(el,v) {
+    grnled : TD.toggle({x:210,y:300,width:200,height:90,label:"Grn LED",value:0,onchange:function(el,v) {
       Puck.write("LED2.write("+v+");\n");
     }}),
    
